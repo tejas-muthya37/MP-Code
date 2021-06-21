@@ -1,0 +1,129 @@
+.contact {
+  margin-top: 130px;
+  width: 60%;
+  padding: 20px;
+  border: 2px solid silver;
+  border-radius: 2px;
+}
+
+.field_required {
+  border: 5px solid red;
+}
+
+.gpay_order {
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.payment_options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.payment_left {
+  margin-top: -5px;
+  margin-bottom: 50px;
+}
+
+.payment_option {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.check_input {
+  transform: scale(1.25);
+}
+
+.input_label {
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+
+.phone {
+  width: 100%;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  height: 35px;
+}
+
+.contact-btn {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.locationInput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.locationInputs {
+  width: 48%;
+  margin-bottom: 20px;
+  border: 2px solid silver;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+
+.border-required {
+  border: 2px solid silver;
+  border-radius: 2px;
+}
+
+.contact a:hover {
+  border: none;
+  text-decoration: none;
+}
+
+.contact h4 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.international_shipping_note {
+  text-align: left;
+}
+
+select {
+  height: 40px;
+}
+
+.phone,
+.address {
+  height: 40px;
+}
+
+.payment_part {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  select {
+    height: 40px;
+  }
+
+  .phone,
+  .address {
+    height: 40px;
+  }
+
+  .address {
+    padding-bottom: 15px;
+  }
+
+  .contact {
+    width: 90%;
+    margin-top: 125px;
+    margin-bottom: 200px;
+  }
+}
